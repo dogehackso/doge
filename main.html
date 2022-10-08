@@ -16,13 +16,25 @@
         <li style="padding-top: 20px;"><a href="projects.html" style="font-family: Arial;">Projects</a></li>
         <li style="padding-top: 20px;"><a href="https://t.me/+fWLr5n0Urw41YjJk">DogeChat</a></li>
         <li style="padding-top: 20px;" id="support"><a >Support</a></li>
-        <li style="padding-top: 20px;"><a href="https://qiwi.com/n/STING995" style="color: #6C27E3;">Premium ★</a></li>
+        <li style="padding-top: 20px;"><a href="https://oplata.qiwi.com/form?invoiceUid=423f083e-a8bf-40f7-bd2e-78ef8595e0f7" style="color: #6C27E3;">Premium ★</a></li>
     </ul>
     <hr>
     <h2>Привет! Здесь ты можешь скачать/купить лучшие читы и хаки для популярных игр и программ</h2>
     <p style="text-align: center;"><img src="1.jpg" width="700px"></p>
     <p style="text-align: center; font-size: 10px; font-weight: bold;">У нас есть чит на разные игры на (этом фото показан чит на Standoff 2)</p>
     <p style="text-align: center;"><button id="btn">Download (Beta)</button></p>
+    <h3 style="text-align: center;">Купить приватный чит</h3>
+        <p style="text-align: center;">
+            <select name="ch_select" id="cheat">
+                <option value="day">Day</option>
+                <option value="week">Week</option>
+                <option value="month">Month</option>
+                <option value="year">Year</option>
+                <option value="forever">Forever</option>
+            </select>
+        </p>
+        <p style="text-align: center;"><button id="buy">Buy</button></p>
+
     <h3>Краткие ответы на большие вопросы!</h3>
     <p style="text-align: center;">· <u>Бысплатна ли программа?</u></p>
     <p style="text-align: center;">- Да</p>
@@ -50,7 +62,7 @@
     let music = document.getElementById('music');
 
     button.onclick = function click() {
-        window.location.href = "https://drive.google.com/file/d/1vS6wnNgWHdcGWo7BuxaVLLSIvhB8qdMR/view?usp=sharing";
+        window.location.href = "download.html";
         let audio = new Audio('sound.mp3');
         audio.play();
     }
@@ -61,15 +73,16 @@
         audio.play();
     }
 
-    music.onclick = function click() {
-        let audio = new Audio('pod.mp3');
-        audio.play();
-    }
+    // music.onclick = function click() {
+    //     let audio = new Audio('pod.mp3');
+    //     audio.play();
+    // }
     // document.querySelector('#support').onclick = function() {
     //     alert('Нет прав');
     // }
     
-
-
+    
+// https://drive.google.com/file/d/1vS6wnNgWHdcGWo7BuxaVLLSIvhB8qdMR/view?usp=sharing
 </script>
+<script src="proverka.js"></script>
 </html>
